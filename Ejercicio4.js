@@ -1,0 +1,10 @@
+nombre = 'Axel';
+apellido = 'Rodriguez';
+estudiante = nombre.concat(' ', apellido);
+estudianteMayus = estudiante.toUpperCase();
+estudianteMinus = estudiante.toLowerCase();
+estudianteLength = estudiante.length;
+primeraLetra = nombre.slice(0,1);
+utlimaLetra = apellido.slice(-1,apellido.length);
+noSpaceEstudiante = estudiante.trim()
+nombreEnAlumno = estudiante.includes('Axel')
